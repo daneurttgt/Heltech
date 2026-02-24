@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nul-style.css">
+    <link rel="stylesheet" href="css/money.css">
+</head>
+<body>
+    <header id="money-header">
+        <div class="money-header__img">
+            <a href="index.html"><img src="src/img/login/Union (3).svg" alt=""></a>
+        </div>
+        <div class="money-header__title">
+            <img src="src/img/money/Group 23.svg" alt="">
+            <span></span>
+        </div>
+        <div class="money-header__lang">
+            <div class="money-header__lang__wrapper">
+                <a href="money.html">
+                    <p>UA</p>
+                </a>
+                <span></span>
+                <a href="money-eng.html">
+                    <h2>EN</h2>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-title">
+            <p>КАРТКА / БАЛАНС</p>
+        </div>
+        <div class="main-body">
+            <div class="main-body--first">
+                <div class="main-body-info">
+                    <div class="main-body-info__img">
+                        <img src="src/img/money/Group 164.png" alt="">
+                    </div>
+                    <div class="main-body-info_text">
+                        <h2>Ілля Костенко</h2>
+                        <div class="main-body-info__block">
+                            <p>12** **** **** *375</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-body__text">
+                    <p>Тут ви можете переказати кошти з картки з балансу нашого застосунку або навпаки.</p>
+                </div>
+            </div>
+            <div class="main-body--second">
+                <span></span>
+            </div>
+            <div class="main-body--third">
+                <div class="main-body--third__text">
+                    <p>Ваш баланс на Chase:</p>
+                </div>
+                <div class="main-body--third__balance">
+                    <p>3 000 ₴</p>
+                </div>
+                <div class="main-body--third__btn--first">
+                    <a class="money-open" href="#"><button>Поповнити баланс Chase</button></a>
+                </div>
+                <div class="main-body--third__btn--second">
+                    <a class="out-open" href="#"><button>Вивести</button></a>
+                </div>
+                <div class="main-body--third__title">
+                    <p>Історія транзакцій:</p>
+                </div>
+                <div class="main-body--third__history">
+                    <div class="main-body--third__history--wrapper">
+                        <div class="main-body--third__history__elem">
+                            <div class="history-body">
+                                <h2>1200 ₴</h2>
+                                <p>Фонд “Допомога”</p>
+                            </div>
+                            <span></span>
+                        </div>
+                        <div class="main-body--third__history__elem">
+                            <div class="history-body">
+                                <h2>700 ₴</h2>
+                                <p>Фонд “Rehab”</p>
+                            </div>
+                            <span></span>
+                        </div>
+                        <div class="main-body--third__history__elem">
+                            <div class="history-body">
+                                <h2>200 ₴</h2>
+                                <p>Фонд “CharityOne”</p>
+                            </div>
+                            <span></span>
+                        </div>
+                        <div class="main-body--third__history__elem">
+                            <div class="history-body">
+                                <h2>400 ₴</h2>
+                                <p>Фонд “NotAlone”</p>
+                            </div>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="money-done" class="money-popup">
+            <div class="money-popup__wrapper">
+                <div class="money-popup__text">
+                    <p>Вкажіть суму</p>
+                </div>
+                <form class="money-form" action="">
+                    <input min="50" max="1000000" maxlength="5" required placeholder="..." class="money-input" type="number">
+                    <a id="hide-btn" class="done-open" href="#"><button>Поповнити</button></a>
+                </form>
+            </div>
+        </div>
+        <div id="money-out" class="out-popup">
+            <div class="money-popup__wrapper">
+                <div class="money-popup__text">
+                    <p>Вкажіть суму</p>
+                </div>
+                <form class="out-form" action="">
+                    <input min="50" max="1000000" maxlength="5" required placeholder="..." class="money-input" type="number">
+                    <a id="hide-out" class="done-open" href="#"><button>Вивести</button></a>
+                </form>
+            </div>
+        </div>
+        <div class="money-done">
+            <div class="money-done__wrapper">
+               <div class="money-done__img">
+                    <img src="src/img/money/Group 254.png" alt="">
+               </div>
+               <div class="money-done__title">
+                    <p>Транзакцію здійснено!</p>
+               </div>
+               <div class="money-done__btn">
+                    <a href="index.html"><button>Повернутись</button></a>
+               </div>
+               <div class="money-done__text">
+                    <p>*Очікуйте повідомлення про переказ коштів</p>
+               </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/popup.js"></script>
+</body>
+</html>

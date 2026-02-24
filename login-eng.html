@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase - login-eng</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login-eng.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body id="login-body">
+    <header id="login-header">
+        <div class="login-header__img">
+            <a href="index.html"><img src="src/img/login/Union (3).svg" alt=""></a>
+        </div>
+        <div class="login-header__title">
+            <h2>Account</h2>
+            <span></span>
+        </div>
+        <div class="login-header__lang-eng">
+            <div class="login-header__lang__wrapper-eng">
+                <a href="login.html"><p>UA</p></a>
+                <span></span>
+                <a href="login-eng.html"><h2>EN</h2></a>
+            </div>
+        </div>
+    </header>
+    <main id="login-main">
+        <div class="login-main__element--first">
+            <div class="login-main__element--first__img">
+                <img src="src/img/login/image 1 (1).png" alt="">
+            </div>
+            <div class="login-main__element--first__nickname">
+                <p>@user-747512</p>
+            </div>
+            <div class="login-main__element--first__title-eng">
+                <p>Enter your card number:</p>
+            </div>
+            <div  class="login-main__element--first__input">
+                <input id="bank-card-input" placeholder="XXXX-XXXX-XXXX-XXXX" class="login-main__input" type="text">
+            </div>
+            <div class="login-main__element--first__spons">
+                <img src="src/img/login/visa 1.png" alt="">
+                <span></span>
+                <div class="second-img">
+                    <img src="src/img/login/mastercard 1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="login-main__span">
+            <span></span>
+        </div>
+        <div class="login-main__element--second">
+            <div class="login-main__element--second__info">
+                <h3>Registration</h3>
+                <p>Change saved</p>
+            </div>
+            <label class="login-main__element--second__input">
+                <input class="element-input" placeholder="Your name" type="text" required>
+                <input class="element-input" placeholder="Your surname" type="text" required>
+                <input class="element-input" placeholder="Your age" type="text" required>
+            </label>
+            <div class="login-main__element--second__title">
+                <p>Enter your social status</p>
+            </div>
+            <div class="login-main__spoiler">
+                <select class="select-login">
+                    <option value="1" class="pp">Military</option>
+                    <option value="2">On rest</option>
+                    <option value="3">Parent with children</option>
+                </select>
+            </div>
+            <div class="login-main__element--second__title">
+                <p>Attach a photo / copy of your passport / ID card</p>
+            </div>
+            <div class="login-main__element--second__img">
+                <img src="src/img/login/36.svg" alt="">
+            </div>
+            <div class="login-main__element--second__title">
+                <p>Write how many people are with you:</p>
+            </div>
+            <label class="login-main__element--second__input-number">
+                <input class="input-number" placeholder="[...]" type="number">
+            </label>
+            <label class="login-main__element--btn">
+                <a class="open-popup" href="#"><button>Register</button></a>
+            </label>
+        </div>
+        <div id="login-popup" class="login-popup">
+            <div class="login-popup__wrapper">
+                <div class="login-popup__img">
+                    <img src="src/img/login/Group 254.svg" alt="">
+                </div>
+                <div class="login-popup__title">
+                    <p>You have successfully registered!</p>
+                </div>
+                <div class="login-popup__btn">
+                    <a href="index.html"><button>To the main page</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/popup.js"></script>
+    <script src="js/bank-card.js"></script>
+</body>
+</html>
