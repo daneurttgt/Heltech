@@ -1,0 +1,54 @@
+.screen10 {
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screen10-title span {
+    margin: 0 auto;
+    width: 1318px;
+    border: 1px solid #323C92;
+}
+.screen10-title h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #323C92;
+}
+.screen10__main {
+    position: relative;
+    padding-top: 100px;
+    user-select: none;
+}
+.screen10__img--first {
+    position: relative;
+}
+.screen10__img--first img {
+    position: absolute;
+    top: -580px;
+    width: 608px;
+    height: 154px;
+}
+.screen10__img--second {
+    position: relative;
+}
+.screen10__img--second img {
+    position: absolute;
+    top: -500px;
+    left: 940px;
+    width: 553px;
+    height: 123px;
+}
+.screen10__img--third {
+    position: relative;
+}
+.screen10__img--third img {
+    position: absolute;
+    top: -180px;
+    left: 470px;
+    width: 569px;
+    height: 185.91px;
+}

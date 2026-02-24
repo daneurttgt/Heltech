@@ -1,0 +1,100 @@
+.screen3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.screen3__title {
+    position: relative;
+    padding-top: 100px;
+}
+.screen3__title h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    color: #181818;
+    padding-bottom: 23px;
+}
+.screen3__title span {
+    margin: 0 auto;
+    width: 372px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+.screen3__body {
+    padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+}
+.screen3__body__element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.screen3__body__element:last-child {
+    margin-bottom: 0px;
+}
+.screen3__body__border span{
+    width: 67px;
+    height: 80px;
+    background: #323C92;
+    border-radius: 0px 40px 40px 0px;
+}
+.screen3__body__text {
+    margin-left: 69px;
+}
+.screen3__body__text--second {
+    margin-left: 69px;
+}
+.screen3__body__text img {
+    width: 1340px;
+    height: 80px;
+}
+.screen3__body__img--first {
+    margin-left: 36px;
+}
+.screen3__body__img--first img {
+    height: 115px;
+    width: 138px;
+}
+.screen3__body__img--second {
+    margin-left: 35px;
+}   
+.screen3__body__img--third {
+    margin-left: 49px;
+}
+.screen3__body__img--third img {
+    height: 93px;
+    width: 119px;
+}
+.screen3__body__border--second--first {
+    margin-left: 32px;
+}
+.screen3__body__border--second--first span{
+    width: 238px;
+    height: 80px;
+    background: #C8DFF6;
+    border-radius: 40px 0px 0px 40px;
+}
+.screen3__body__border--second--second {
+    margin-left: 32px;
+}
+.screen3__body__border--second--second span {
+    width: 338px;
+    height: 80px;
+    background: #C8DFF6;
+    border-radius: 40px 0px 0px 40px;
+}
+.screen3__body__border--second--third {
+    margin-left: 32px;
+}
+.screen3__body__border--second--third span {
+    width: 238px;
+    height: 80px;
+    background: #C8DFF6;
+    border-radius: 40px 0px 0px 40px;
+}
+.screen3__body__text--second {
+    left: 68px;
+}

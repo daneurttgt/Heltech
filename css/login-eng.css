@@ -1,0 +1,54 @@
+.login-main__element--first__title-eng p {
+    position: relative;
+    left: -75px;
+    margin-top: 109px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #181818;
+}
+.login-header__lang-eng {
+    cursor: pointer;
+    position: relative;
+    margin-left: 722px;
+    width: 89px;
+    height: 37px;
+    background: #323C92;
+    border-radius: 18.5px;
+}
+.login-header__lang__wrapper-eng {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 11px 13px 11px 13px;
+}
+.login-header__lang__wrapper-eng p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: #7E89EB;
+}
+.login-header__lang__wrapper-eng span {
+    width: 14px;
+    height: 0px;
+    border: 1px solid #7E89EB;
+    transform: rotate(90deg);
+}
+.login-header__lang__wrapper-eng h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+input:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+    background-size: 25px;
+}
+
+input:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+    background-size: 25px;
+}

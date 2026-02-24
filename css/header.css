@@ -1,0 +1,126 @@
+#header {
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 33px;
+    margin:0px 55px;
+}
+.header__img {
+    position: relative;
+    width: 66px;
+    height: 66px;
+
+}
+.header__img img {
+    cursor: pointer;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+.header-element__input input {
+    position: relative;
+    margin-left: 59px;
+    width: 573px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 4px rgba(116, 116, 116, 0.25);
+    border-radius: 45px;
+}
+.header-input__text {
+    padding-left: 72px;
+    color: #000000;
+    border: none;
+    font-size: 25px;
+    margin: 1px;
+}
+.header-element__input::before {
+    content: url(../src/img/header/5.svg);
+    position: absolute;
+    z-index: 2;
+    top: 70px;
+    margin-left: 100px;
+}
+.header-element__input button {
+    position: absolute;
+    top: 40px;
+    left: 690px;
+}
+.header-element__input input[type="submit"] {
+    position: absolute;
+    top: 33%;
+    margin-left: 545px;
+    width: 78px;
+    height: 78px;
+    border: none;
+    background: url(../src/img/header/6.svg) no-repeat 50% 50%;
+}
+.header-element__input input::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 90%;
+}
+.header__links-element {
+    position: relative;
+}
+.header-element__links {
+    position: relative;
+    width: 813px;
+    height: 90px;
+    margin-left: 51px;
+    border: 1px solid #323C92;
+    border-radius: 45px;
+}
+.header__links {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 37%;
+    left: 7%;
+    width: 693px;
+}
+.header__links-element:hover::after {
+    transition: border 447ms ease-out, border-radius 447ms ease-out;
+    position: absolute;
+    content: '';
+    transition: all 4s;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: #323C92;
+    top: 245%;
+    border-radius: 6px 6px 0px 0px;
+}
+.header__links-element a {
+    transition: border 447ms ease-out, border-radius 447ms ease-out;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #323C92;
+}
+.header-element__menu {
+    margin-left: 52px;
+    width: 173px;
+    height: 90px;
+    background: #323C92;
+    border-radius: 45px;
+}
+.header__menu {  
+    margin: 21px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 117px;
+}
+.header__menu-componen{
+    user-select: none;
+}
+.header__menu-component img {
+    cursor: pointer;
+    background-color: transparent;
+}

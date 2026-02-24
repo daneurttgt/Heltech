@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #E9F4FF;
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+a {
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+ul li,
+ol li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+button {
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+input {
+    display: block;
+    background: transparent;
+    border: none;
+    outline:none;
+}
+span {
+    display: block;
+}
+img {
+  width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

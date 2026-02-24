@@ -1,0 +1,38 @@
+.money-header__lang--eng {
+    cursor: pointer;
+    position: relative;
+    margin-left: 739px;
+    width: 89px;
+    height: 37px;
+    background: #323C92;
+    border-radius: 18.5px;
+}
+.money-header__lang__wrapper--eng {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 11px 13px 11px 13px;
+}
+
+.money-header__lang__wrapper--eng p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: #7E89EB;
+}
+
+.money-header__lang__wrapper--eng span {
+    width: 14px;
+    height: 0px;
+    border: 1px solid #7E89EB;
+    transform: rotate(90deg);
+}
+
+.money-header__lang__wrapper--eng h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: #FFFFFF;
+}

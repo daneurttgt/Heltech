@@ -1,0 +1,35 @@
+.job-header__lang--eng {
+    cursor: pointer;
+    position: relative;
+    margin-left: 712px;
+    width: 89px;
+    height: 37px;
+    background: #323C92;
+    border-radius: 18.5px;
+}
+.job-header__lang__wrapper--eng {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 11px 13px 11px 13px;
+}
+.job-header__lang__wrapper--eng p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: #7E89EB;
+}
+.job-header__lang__wrapper--eng span {
+    width: 14px;
+    height: 0px;
+    border: 1px solid #7E89EB;
+    transform: rotate(90deg);
+}
+.job-header__lang__wrapper--eng h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
